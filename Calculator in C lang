@@ -3,23 +3,29 @@
 int main()
 {
 
-  int a,b,c,add,sub,mul;
-  float div;
+  int a,b,res,num;
   printf("Enter number 01: ");
   scanf("%d", &a);
   
   printf("Enter number 02: ");
   scanf("%d", &b);
+  
+  printf("Which operation you want to perform\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n ");
+  scanf("%d", &num);
 
-  
-  add = a + b;
-  sub = a - b;
-  mul = a * b;
-  div = a / b;
-  
-  printf("Addition of the two entered numbers: %d", add);
-  printf("Subtraction of the two entered numbers: %d", sub);
-  printf("Multiplication of the two entered numbers: %d, mul);
-  
-  //continue the rest
+  switch(num)
+  {
+      case 1: res = a + b;
+              break;
+      case 2: res = a - b;
+              break;
+      case 3: res = a * b;
+              break;
+      case 4: res = a / b;
+              break;
+      default: printf("Invalid operation");
+              break;
+  }
+  printf("The result is %d",res);
+  return 0;
 }
