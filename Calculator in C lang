@@ -3,10 +3,10 @@
 int main()
 {
   int a,b,c;
-  printf("Enter number 01: ");
+  printf("Enter the number : ");
   scanf("%d", a);
   
-  printf("Enter number 02: ");
+  printf("Enter the number : ");
   scanf("%d", b);
   
   add = a + b;
