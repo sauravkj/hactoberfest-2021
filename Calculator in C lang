@@ -10,6 +10,7 @@ int main()
   scanf("%d", b);
   
   add = a + b;
+  sub = a - b;
   
   //continue the rest
 }
