@@ -2,15 +2,24 @@
 
 int main()
 {
-  int a,b,c;
-  printf("Enter the number : ");
-  scanf("%d", a);
+
+  int a,b,c,add,sub,mul;
+  float div;
+  printf("Enter number 01: ");
+  scanf("%d", &a);
   
-  printf("Enter the number : ");
-  scanf("%d", b);
+  printf("Enter number 02: ");
+  scanf("%d", &b);
+
   
   add = a + b;
   sub = a - b;
+  mul = a * b;
+  div = a / b;
+  
+  printf("Addition of the two entered numbers: %d", add);
+  printf("Subtraction of the two entered numbers: %d", sub);
+  printf("Multiplication of the two entered numbers: %d, mul);
   
   //continue the rest
 }
