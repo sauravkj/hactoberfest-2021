@@ -3,15 +3,20 @@
 int main()
 {
   int a,b,c,add,sub,mul;
+  float div;
   printf("Enter number 01: ");
-  scanf("%d", a);
+  scanf("%d", &a);
   
   printf("Enter number 02: ");
-  scanf("%d", b);
+  scanf("%d", &b);
   
   add = a + b;
   sub = a - b;
   mul = a * b;
+  div = a / b;
+  
+  printf("Addition of the two entered numbers: %d", add);
+  printf("Subtraction of the two entered numbers: %d", sub);
   
   //continue the rest
 }
