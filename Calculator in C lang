@@ -2,7 +2,7 @@
 
 int main()
 {
-  int a,b,c;
+  int a,b,c,add,sub,mul;
   printf("Enter number 01: ");
   scanf("%d", a);
   
@@ -11,6 +11,7 @@ int main()
   
   add = a + b;
   sub = a - b;
+  mul = a * b;
   
   //continue the rest
 }
