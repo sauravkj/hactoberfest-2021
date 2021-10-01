@@ -3,12 +3,17 @@
 int main()
 {
 
+
   int a,b,res,num;
+==========================================================================================================================
+
+
   printf("Enter number 01: ");
   scanf("%d", &a);
   
   printf("Enter number 02: ");
   scanf("%d", &b);
+
   
   printf("Which operation you want to perform\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n ");
   scanf("%d", &num);
@@ -28,4 +33,25 @@ int main()
   }
   printf("The result is %d",res);
   return 0;
+  
+  }
+================================================================================================================================
+#include <stdio.h>
+int main()
+{
+  int a,b,c,add,sub,mul,Rem;
+  float div;
+  
+  add = a + b;
+  sub = a - b;
+  mul = a * b;
+  div = a / b;
+  Rem= a%b
+  
+  printf("Addition of the two entered numbers: %d", add);
+  printf("Subtraction of the two entered numbers: %d", sub);
+  printf("Multiplication of the two entered numbers: %d', mul);
+  printf("Division of the two entered numbers: %d', div);
+  printf("Remainder of the two entered numbers: %d', Rem);
+
 }
