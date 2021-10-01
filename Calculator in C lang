@@ -19,7 +19,6 @@ int main()
   
   printf("Addition of the two entered numbers: %d", add);
   printf("Subtraction of the two entered numbers: %d", sub);
-  printf("Multiplication of the two entered numbers: %d, mul);
-  
-  //continue the rest
+  printf("Multiplication of the two entered numbers: %d', mul);
+  printf("Division of the two entered numbers: %d', div);
 }
