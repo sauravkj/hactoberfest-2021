@@ -3,7 +3,7 @@
 int main()
 {
 
-  int a,b,c,add,sub,mul;
+  int a,b,c,add,sub,mul,Rem;
   float div;
   printf("Enter number 01: ");
   scanf("%d", &a);
@@ -16,9 +16,11 @@ int main()
   sub = a - b;
   mul = a * b;
   div = a / b;
+  Rem= a%b
   
   printf("Addition of the two entered numbers: %d", add);
   printf("Subtraction of the two entered numbers: %d", sub);
   printf("Multiplication of the two entered numbers: %d', mul);
   printf("Division of the two entered numbers: %d', div);
+  printf("Remainder of the two entered numbers: %d', Rem);
 }
