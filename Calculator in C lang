@@ -46,7 +46,7 @@ int main()
   sub = a - b;
   mul = a * b;
   div = a / b;
-  Rem= a%b
+  Rem= a % b;
   
   printf("Addition of the two entered numbers: %d", add);
   printf("Subtraction of the two entered numbers: %d", sub);
