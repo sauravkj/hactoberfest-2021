@@ -15,7 +15,7 @@ int main()
   scanf("%d", &b);
 
   
-  printf("Which operation you want to perform\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n ");
+  printf("Which operation you want to perform\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n6.Remainder\n");
   scanf("%d", &num);
 
   switch(num)
@@ -27,6 +27,8 @@ int main()
       case 3: res = a * b;
               break;
       case 4: res = a / b;
+              break;
+      case 5:res= a % b;
               break;
       default: printf("Invalid operation");
               break;
